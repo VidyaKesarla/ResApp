@@ -1,0 +1,6 @@
+framework module Koosa {
+  umbrella header "Koosa-umbrella.h"
+
+  export *
+  module * { export * }
+}

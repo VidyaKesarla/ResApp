@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/vidyasrinivasakesarla/Downloads/ResApp 4/ResApp/Admin/Admin View/AddConferencesTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:ResApp/Guide/Controller/guideFacilityViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:ResApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ResApp1.xcodeproj">
+   </FileRef>
+</Workspace>
