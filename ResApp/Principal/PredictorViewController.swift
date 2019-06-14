@@ -70,6 +70,7 @@ class PredictorViewController: UIViewController {
         //        //let za = (z?.toDouble())!
         //        a = Double("\(self.workload.text)")
         //        //let aa = a?.toDouble()
+        print("git")
         guard let publnpredict = try? model.prediction(Department: self.department.text!, Year: xa, citations: ya, hindex: za, workload: aa)
             else {
                 fatalError("Unexpected runtime error.")
