@@ -7,6 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07824EE0224F452000815103 /* GuideStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07824EDF224F452000815103 /* GuideStoryBoard.storyboard */; };
+		25CA86AABD2B5E23957B184A /* Pods_ResAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AA407A6A4D283F08809D5D /* Pods_ResAppTests.framework */; };
+		3C0675E922ABC4D500FEC24C /* LogoAnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0675E822ABC4D500FEC24C /* LogoAnimateView.swift */; };
+		3C0675EB22ABC58300FEC24C /* Screenshot 2019-03-02 at 6.22.31 PM.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3C0675EA22ABC58300FEC24C /* Screenshot 2019-03-02 at 6.22.31 PM.gif */; };
+		3C0675ED22ABC5AD00FEC24C /* ezgif.com-gif-maker.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3C0675EC22ABC5AD00FEC24C /* ezgif.com-gif-maker.gif */; };
+		3C0675EF22ABC5EA00FEC24C /* ezgif.com-gif-maker-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3C0675EE22ABC5EA00FEC24C /* ezgif.com-gif-maker-2.gif */; };
+		3C0675F122ABC67400FEC24C /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0675F022ABC67400FEC24C /* LaunchScreenViewController.swift */; };
+		3C0C738A2284314C00BC830C /* GuideDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C73892284314C00BC830C /* GuideDataModel.swift */; };
+		3C0C9CAD2287DB68001B04A5 /* GuideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C9CAC2287DB68001B04A5 /* GuideViewModel.swift */; };
+		3C0C9CAF22880B2D001B04A5 /* schnotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C9CAE22880B2D001B04A5 /* schnotificationsTableViewCell.swift */; };
+		3C1CB4FA2269A46600669F38 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1CB4F92269A46600669F38 /* SignUpViewController.swift */; };
+		3C5715B8225C7F930089BD93 /* AddEducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5715B7225C7F930089BD93 /* AddEducationViewController.swift */; };
+		3C5715BA225C86010089BD93 /* AddTeachingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5715B9225C86010089BD93 /* AddTeachingViewController.swift */; };
+		3C5715BC225C88690089BD93 /* AddJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5715BB225C88690089BD93 /* AddJournalViewController.swift */; };
+		3C5715BE225C89090089BD93 /* AddConferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5715BD225C89090089BD93 /* AddConferenceViewController.swift */; };
+		3C5715C0225C8A810089BD93 /* AddMembershipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5715BF225C8A810089BD93 /* AddMembershipViewController.swift */; };
+		3C5715C2225C8BE70089BD93 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5715C1225C8BE70089BD93 /* Storyboard.storyboard */; };
+		3C5715C4225C96530089BD93 /* EducationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5715C3225C96530089BD93 /* EducationTableViewCell.swift */; };
+		3C5715C6225CFA340089BD93 /* AddTeachingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5715C5225CFA340089BD93 /* AddTeachingTableViewCell.swift */; };
+		3C5715C8225D025F0089BD93 /* AddMembershipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5715C7225D025F0089BD93 /* AddMembershipTableViewCell.swift */; };
+		3C5715CA225D02EC0089BD93 /* AddJournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5715C9225D02EC0089BD93 /* AddJournalTableViewCell.swift */; };
+		3C79D06F22886E1B004273A8 /* Principal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D06E22886E1B004273A8 /* Principal.storyboard */; };
+		3C7F36D3225B90BB0063CE86 /* ResearchScholarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F36D2225B90BB0063CE86 /* ResearchScholarTableViewCell.swift */; };
+		3C7F36D5225B913E0063CE86 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F36D4225B913E0063CE86 /* NotificationTableViewCell.swift */; };
+		3C7F36D7225B91C60063CE86 /* ResearchScholarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F36D6225B91C60063CE86 /* ResearchScholarViewController.swift */; };
+		3C7F36D9225B92150063CE86 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F36D8225B92150063CE86 /* NotificationsViewController.swift */; };
+		3C7F36DB225B92470063CE86 /* FacilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F36DA225B92470063CE86 /* FacilitiesViewController.swift */; };
+		3C7F36DD225B92890063CE86 /* FacilityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F36DC225B92890063CE86 /* FacilityTableViewCell.swift */; };
+		3C8EF625228547CD009922BE /* ScholarsPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EF624228547CD009922BE /* ScholarsPopupViewController.swift */; };
+		3C8EF627228547E8009922BE /* scholarlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EF626228547E8009922BE /* scholarlistTableViewCell.swift */; };
+		3C9E9E3A224CFE0C00651C0C /* guideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E9E39224CFE0C00651C0C /* guideTableViewCell.swift */; };
+		3C9E9E3E224DB2AA00651C0C /* addGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E9E3D224DB2AA00651C0C /* addGuideViewController.swift */; };
+		3C9E9E40224DB30500651C0C /* addGuide2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E9E3F224DB30500651C0C /* addGuide2ViewController.swift */; };
+		3CA4180A227FEAAF003C8A44 /* GuideProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA41809227FEAAF003C8A44 /* GuideProfileViewController.swift */; };
+		3CA4180C22800CA7003C8A44 /* BarChartsYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4180B22800CA7003C8A44 /* BarChartsYearViewController.swift */; };
+		3CB78379228B1C9200D3E556 /* PlagiarismViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB78378228B1C9200D3E556 /* PlagiarismViewController.swift */; };
+		3CB7837B228B22F000D3E556 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7837A228B22F000D3E556 /* MyProfileViewController.swift */; };
+		3CB7837D228B260800D3E556 /* ScholarLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7837C228B260800D3E556 /* ScholarLoginViewController.swift */; };
+		3CC0121F227733EC00B86611 /* selectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0121E227733EB00B86611 /* selectViewController.swift */; };
+		3CE3270F224DE689002699E6 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3270E224DE689002699E6 /* EducationViewController.swift */; };
+		3CE32711224DE6C0002699E6 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE32710224DE6C0002699E6 /* ServiceViewController.swift */; };
+		3CE32713224DEDDF002699E6 /* MembershipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE32712224DEDDF002699E6 /* MembershipViewController.swift */; };
+		3CE32715224DF8DE002699E6 /* journalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE32714224DF8DE002699E6 /* journalViewController.swift */; };
+		3CE43809222ABC1D00B41AE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CE43808222ABC1D00B41AE8 /* GoogleService-Info.plist */; };
+		3CE4F166222CE0CF00172F51 /* cust1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE4F165222CE0CF00172F51 /* cust1ViewController.swift */; };
+		3CE50A9D222D34E100696AED /* Guide1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE50A9C222D34E100696AED /* Guide1ViewController.swift */; };
+		3CE557382247583400001D4E /* startCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE557362247583400001D4E /* startCollectionViewCell.swift */; };
+		3CE557392247583400001D4E /* startCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE557372247583400001D4E /* startCollectionViewCell.xib */; };
+		3CE5574222475B3300001D4E /* ResearchGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE5574022475B3300001D4E /* ResearchGuideViewController.swift */; };
+		3CE5574322475B3300001D4E /* ResearchGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE5574122475B3300001D4E /* ResearchGuideViewController.xib */; };
+		3CE558A3222D083A001E83AC /* PopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE558A2222D083A001E83AC /* PopupVC.swift */; };
+		3CE69F40228666E500EBBAFB /* guideLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE69F3F228666E500EBBAFB /* guideLoginViewController.swift */; };
+		3CE71718223020A7002B3AB6 /* DeptCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE71717223020A7002B3AB6 /* DeptCollectionViewController.swift */; };
+		3CE7171E22303410002B3AB6 /* newCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7171D22303410002B3AB6 /* newCollectionViewCell.swift */; };
+		3CE78ADA224099A6007A02FE /* colViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE78AD9224099A6007A02FE /* colViewController.swift */; };
 		3CE880B0222809AE00B90897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE880AF222809AE00B90897 /* AppDelegate.swift */; };
 		3CE880B2222809AE00B90897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE880B1222809AE00B90897 /* ViewController.swift */; };
 		3CE880B5222809AE00B90897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE880B3222809AE00B90897 /* Main.storyboard */; };
@@ -14,6 +69,37 @@
 		3CE880BA222809B100B90897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE880B8222809B100B90897 /* LaunchScreen.storyboard */; };
 		3CE880C5222809B200B90897 /* ResAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE880C4222809B200B90897 /* ResAppTests.swift */; };
 		3CE880D0222809B200B90897 /* ResAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE880CF222809B200B90897 /* ResAppUITests.swift */; };
+		3CE93265227D8AE600056A2F /* viewdetailspopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE93264227D8AE600056A2F /* viewdetailspopupViewController.swift */; };
+		3CE93269227D8EA800056A2F /* detailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE93268227D8EA800056A2F /* detailsTableViewCell.swift */; };
+		3CE968A8228A7C7F00D8AA1F /* ScholarProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE968A7228A7C7F00D8AA1F /* ScholarProfileViewController.swift */; };
+		3CE96F9F22296DBF00C658E2 /* SBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE96F9E22296DBF00C658E2 /* SBButton.swift */; };
+		3CE96FA12229780800C658E2 /* custViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE96FA02229780800C658E2 /* custViewController.swift */; };
+		3CE9A35B226AF05B0078B5C4 /* Admindatamodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9A35A226AF05B0078B5C4 /* Admindatamodel.swift */; };
+		3CE9C2D6227F0F0600319BD2 /* AddConferencesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9C2D5227F0F0600319BD2 /* AddConferencesTableViewCell.swift */; };
+		3CE9EF3D222E5C7200AB3271 /* AdminStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE9EF3C222E5C7200AB3271 /* AdminStoryboard.storyboard */; };
+		3CEABFEA2279799A001706C5 /* GuidePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEABFE922797999001706C5 /* GuidePopUpViewController.swift */; };
+		3CEABFF022797E15001706C5 /* GuidesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEABFEF22797E15001706C5 /* GuidesTableViewCell.swift */; };
+		3CEABFF222798CDF001706C5 /* dropdownimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CEABFF122798CDF001706C5 /* dropdownimg.png */; };
+		3CEABFF4227B1103001706C5 /* UserdetilsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEABFF3227B1103001706C5 /* UserdetilsDataModel.swift */; };
+		3CEB68582253343E005626D6 /* scholarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB68572253343E005626D6 /* scholarTableViewCell.swift */; };
+		3CEB685A22533AAE005626D6 /* indScholarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB685922533AAE005626D6 /* indScholarViewController.swift */; };
+		3CEB685C22536302005626D6 /* scholarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CEB685B22536302005626D6 /* scholarStoryboard.storyboard */; };
+		3CEB685E225366DB005626D6 /* snotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB685D225366DB005626D6 /* snotificationViewController.swift */; };
+		3CED097822AB9EEA0086AB33 /* ResData.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CED097722AB9EE90086AB33 /* ResData.mlmodel */; };
+		3CF158DD22AA491B006D4875 /* PredictorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF158DC22AA491B006D4875 /* PredictorViewController.swift */; };
+		3CFF9F6B226DE4A00086CD5F /* AdminViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF9F6A226DE4A00086CD5F /* AdminViewModel.swift */; };
+		47BA32051772FC5043EB1B30 /* Pods_ResApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA17711B78B98341B233EAF /* Pods_ResApp.framework */; };
+		4E97F9C8225B1A0100782058 /* ConferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97F9C7225B1A0100782058 /* ConferencesViewController.swift */; };
+		4E97F9CA225B1A7400782058 /* ScholarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97F9C9225B1A7400782058 /* ScholarViewController.swift */; };
+		4E97F9CC225B232C00782058 /* GNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97F9CB225B232C00782058 /* GNotificationViewController.swift */; };
+		4E97F9CE225B241000782058 /* scholarlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97F9CD225B241000782058 /* scholarlistViewController.swift */; };
+		4E97F9D2225B284A00782058 /* scholarprofileviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97F9D1225B284A00782058 /* scholarprofileviewViewController.swift */; };
+		4E97F9D4225B2B7600782058 /* addnotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97F9D3225B2B7600782058 /* addnotificationViewController.swift */; };
+		4E97F9D6225B2D0B00782058 /* postnotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97F9D5225B2D0B00782058 /* postnotificationViewController.swift */; };
+		4E97F9DA225B313700782058 /* notfTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97F9D9225B313700782058 /* notfTableViewCell.swift */; };
+		4E97F9E1225B33D400782058 /* scholardisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97F9E0225B33D400782058 /* scholardisplayTableViewCell.swift */; };
+		4E97F9E6225B457000782058 /* guideFacilityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E97F9E5225B457000782058 /* guideFacilityTableViewCell.swift */; };
+		92C9923F3E9D6FE53B5A0432 /* Pods_ResAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC68DD46781BB11AD906498 /* Pods_ResAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +120,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07824EDF224F452000815103 /* GuideStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GuideStoryBoard.storyboard; sourceTree = "<group>"; };
+		1A2D6D6C90E6D64B88038ED9 /* Pods-ResApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResApp.debug.xcconfig"; path = "Target Support Files/Pods-ResApp/Pods-ResApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2A8576E5AC50409A80ADFB6D /* Pods-ResAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResAppTests.release.xcconfig"; path = "Target Support Files/Pods-ResAppTests/Pods-ResAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C0675E822ABC4D500FEC24C /* LogoAnimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimateView.swift; sourceTree = "<group>"; };
+		3C0675EA22ABC58300FEC24C /* Screenshot 2019-03-02 at 6.22.31 PM.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Screenshot 2019-03-02 at 6.22.31 PM.gif"; sourceTree = "<group>"; };
+		3C0675EC22ABC5AD00FEC24C /* ezgif.com-gif-maker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-gif-maker.gif"; sourceTree = "<group>"; };
+		3C0675EE22ABC5EA00FEC24C /* ezgif.com-gif-maker-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-gif-maker-2.gif"; sourceTree = "<group>"; };
+		3C0675F022ABC67400FEC24C /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		3C0C73892284314C00BC830C /* GuideDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideDataModel.swift; sourceTree = "<group>"; };
+		3C0C9CAC2287DB68001B04A5 /* GuideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewModel.swift; sourceTree = "<group>"; };
+		3C0C9CAE22880B2D001B04A5 /* schnotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schnotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		3C1CB4F92269A46600669F38 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3C5715B7225C7F930089BD93 /* AddEducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddEducationViewController.swift; path = ResApp/Admin/Controller/AddEducationViewController.swift; sourceTree = SOURCE_ROOT; };
+		3C5715B9225C86010089BD93 /* AddTeachingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeachingViewController.swift; sourceTree = "<group>"; };
+		3C5715BB225C88690089BD93 /* AddJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJournalViewController.swift; sourceTree = "<group>"; };
+		3C5715BD225C89090089BD93 /* AddConferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConferenceViewController.swift; sourceTree = "<group>"; };
+		3C5715BF225C8A810089BD93 /* AddMembershipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMembershipViewController.swift; sourceTree = "<group>"; };
+		3C5715C1225C8BE70089BD93 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		3C5715C3225C96530089BD93 /* EducationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationTableViewCell.swift; sourceTree = "<group>"; };
+		3C5715C5225CFA340089BD93 /* AddTeachingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeachingTableViewCell.swift; sourceTree = "<group>"; };
+		3C5715C7225D025F0089BD93 /* AddMembershipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMembershipTableViewCell.swift; sourceTree = "<group>"; };
+		3C5715C9225D02EC0089BD93 /* AddJournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJournalTableViewCell.swift; sourceTree = "<group>"; };
+		3C79D06E22886E1B004273A8 /* Principal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Principal.storyboard; sourceTree = "<group>"; };
+		3C7F36D2225B90BB0063CE86 /* ResearchScholarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResearchScholarTableViewCell.swift; path = "ResApp/Admin/Custom Cell/ResearchScholarTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		3C7F36D4225B913E0063CE86 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationTableViewCell.swift; path = "ResApp/Admin/Custom Cell/NotificationTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		3C7F36D6225B91C60063CE86 /* ResearchScholarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResearchScholarViewController.swift; path = ResApp/Admin/Controller/ResearchScholarViewController.swift; sourceTree = SOURCE_ROOT; };
+		3C7F36D8225B92150063CE86 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationsViewController.swift; path = ResApp/Admin/Controller/NotificationsViewController.swift; sourceTree = SOURCE_ROOT; };
+		3C7F36DA225B92470063CE86 /* FacilitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FacilitiesViewController.swift; path = ResApp/Admin/Controller/FacilitiesViewController.swift; sourceTree = SOURCE_ROOT; };
+		3C7F36DC225B92890063CE86 /* FacilityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FacilityTableViewCell.swift; path = "ResApp/Admin/Custom Cell/FacilityTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		3C8EF624228547CD009922BE /* ScholarsPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScholarsPopupViewController.swift; sourceTree = "<group>"; };
+		3C8EF626228547E8009922BE /* scholarlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scholarlistTableViewCell.swift; sourceTree = "<group>"; };
+		3C9E9E39224CFE0C00651C0C /* guideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guideTableViewCell.swift; sourceTree = "<group>"; };
+		3C9E9E3D224DB2AA00651C0C /* addGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addGuideViewController.swift; sourceTree = "<group>"; };
+		3C9E9E3F224DB30500651C0C /* addGuide2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addGuide2ViewController.swift; sourceTree = "<group>"; };
+		3CA41809227FEAAF003C8A44 /* GuideProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideProfileViewController.swift; sourceTree = "<group>"; };
+		3CA4180B22800CA7003C8A44 /* BarChartsYearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartsYearViewController.swift; sourceTree = "<group>"; };
+		3CB78378228B1C9200D3E556 /* PlagiarismViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlagiarismViewController.swift; sourceTree = "<group>"; };
+		3CB7837A228B22F000D3E556 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		3CB7837C228B260800D3E556 /* ScholarLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScholarLoginViewController.swift; sourceTree = "<group>"; };
+		3CC0121E227733EB00B86611 /* selectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectViewController.swift; sourceTree = "<group>"; };
+		3CE3270E224DE689002699E6 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		3CE32710224DE6C0002699E6 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		3CE32712224DEDDF002699E6 /* MembershipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipViewController.swift; sourceTree = "<group>"; };
+		3CE32714224DF8DE002699E6 /* journalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalViewController.swift; sourceTree = "<group>"; };
+		3CE43808222ABC1D00B41AE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CE4F165222CE0CF00172F51 /* cust1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cust1ViewController.swift; sourceTree = "<group>"; };
+		3CE50A9C222D34E100696AED /* Guide1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide1ViewController.swift; sourceTree = "<group>"; };
+		3CE557362247583400001D4E /* startCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startCollectionViewCell.swift; sourceTree = "<group>"; };
+		3CE557372247583400001D4E /* startCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = startCollectionViewCell.xib; sourceTree = "<group>"; };
+		3CE5574022475B3300001D4E /* ResearchGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchGuideViewController.swift; sourceTree = "<group>"; };
+		3CE5574122475B3300001D4E /* ResearchGuideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResearchGuideViewController.xib; sourceTree = "<group>"; };
+		3CE558A2222D083A001E83AC /* PopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupVC.swift; sourceTree = "<group>"; };
+		3CE69F3F228666E500EBBAFB /* guideLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guideLoginViewController.swift; sourceTree = "<group>"; };
+		3CE71717223020A7002B3AB6 /* DeptCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeptCollectionViewController.swift; sourceTree = "<group>"; };
+		3CE7171D22303410002B3AB6 /* newCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newCollectionViewCell.swift; sourceTree = "<group>"; };
+		3CE78AD9224099A6007A02FE /* colViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colViewController.swift; sourceTree = "<group>"; };
 		3CE880AC222809AE00B90897 /* ResApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE880AF222809AE00B90897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CE880B1222809AE00B90897 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +189,42 @@
 		3CE880CB222809B200B90897 /* ResAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE880CF222809B200B90897 /* ResAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResAppUITests.swift; sourceTree = "<group>"; };
 		3CE880D1222809B200B90897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE93264227D8AE600056A2F /* viewdetailspopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = viewdetailspopupViewController.swift; path = ResApp/Admin/Controller/viewdetailspopupViewController.swift; sourceTree = SOURCE_ROOT; };
+		3CE93268227D8EA800056A2F /* detailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = detailsTableViewCell.swift; path = "ResApp/Admin/Custom Cell/detailsTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		3CE968A7228A7C7F00D8AA1F /* ScholarProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScholarProfileViewController.swift; sourceTree = "<group>"; };
+		3CE96F9E22296DBF00C658E2 /* SBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBButton.swift; sourceTree = "<group>"; };
+		3CE96FA02229780800C658E2 /* custViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custViewController.swift; sourceTree = "<group>"; };
+		3CE9A35A226AF05B0078B5C4 /* Admindatamodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admindatamodel.swift; sourceTree = "<group>"; };
+		3CE9C2D5227F0F0600319BD2 /* AddConferencesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddConferencesTableViewCell.swift; path = "/Users/vidyasrinivasakesarla/Downloads/ResApp 4/ResApp/Admin/Admin View/AddConferencesTableViewCell.swift"; sourceTree = "<absolute>"; };
+		3CE9EF3C222E5C7200AB3271 /* AdminStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdminStoryboard.storyboard; sourceTree = "<group>"; };
+		3CEABFE922797999001706C5 /* GuidePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidePopUpViewController.swift; sourceTree = "<group>"; };
+		3CEABFEF22797E15001706C5 /* GuidesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidesTableViewCell.swift; sourceTree = "<group>"; };
+		3CEABFF122798CDF001706C5 /* dropdownimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdownimg.png; sourceTree = "<group>"; };
+		3CEABFF3227B1103001706C5 /* UserdetilsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserdetilsDataModel.swift; path = "ResApp/Admin/Data model/UserdetilsDataModel.swift"; sourceTree = SOURCE_ROOT; };
+		3CEB68572253343E005626D6 /* scholarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scholarTableViewCell.swift; sourceTree = "<group>"; };
+		3CEB685922533AAE005626D6 /* indScholarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indScholarViewController.swift; sourceTree = "<group>"; };
+		3CEB685B22536302005626D6 /* scholarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = scholarStoryboard.storyboard; sourceTree = "<group>"; };
+		3CEB685D225366DB005626D6 /* snotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snotificationViewController.swift; sourceTree = "<group>"; };
+		3CED097722AB9EE90086AB33 /* ResData.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ResData.mlmodel; sourceTree = "<group>"; };
+		3CF158DC22AA491B006D4875 /* PredictorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictorViewController.swift; sourceTree = "<group>"; };
+		3CFF9F6A226DE4A00086CD5F /* AdminViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewModel.swift; sourceTree = "<group>"; };
+		4E97F9C7225B1A0100782058 /* ConferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesViewController.swift; sourceTree = "<group>"; };
+		4E97F9C9225B1A7400782058 /* ScholarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScholarViewController.swift; sourceTree = "<group>"; };
+		4E97F9CB225B232C00782058 /* GNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNotificationViewController.swift; sourceTree = "<group>"; };
+		4E97F9CD225B241000782058 /* scholarlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scholarlistViewController.swift; sourceTree = "<group>"; };
+		4E97F9D1225B284A00782058 /* scholarprofileviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scholarprofileviewViewController.swift; sourceTree = "<group>"; };
+		4E97F9D3225B2B7600782058 /* addnotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addnotificationViewController.swift; sourceTree = "<group>"; };
+		4E97F9D5225B2D0B00782058 /* postnotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postnotificationViewController.swift; sourceTree = "<group>"; };
+		4E97F9D9225B313700782058 /* notfTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notfTableViewCell.swift; sourceTree = "<group>"; };
+		4E97F9E0225B33D400782058 /* scholardisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scholardisplayTableViewCell.swift; sourceTree = "<group>"; };
+		4E97F9E5225B457000782058 /* guideFacilityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = guideFacilityTableViewCell.swift; path = "ResApp/Guide/Custom Cell/guideFacilityTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		6A2B4A361DB0FF0D4ED40781 /* Pods-ResAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ResAppUITests/Pods-ResAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80AA407A6A4D283F08809D5D /* Pods_ResAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE9735031AD1D8AF82DD6D9 /* Pods-ResApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResApp.release.xcconfig"; path = "Target Support Files/Pods-ResApp/Pods-ResApp.release.xcconfig"; sourceTree = "<group>"; };
+		C30AA85C10DE224A964BD8C6 /* Pods-ResAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ResAppUITests/Pods-ResAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBAEEEF967FCD383B50EFB49 /* Pods-ResAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ResAppTests/Pods-ResAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC68DD46781BB11AD906498 /* Pods_ResAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA17711B78B98341B233EAF /* Pods_ResApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47BA32051772FC5043EB1B30 /* Pods_ResApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +240,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25CA86AABD2B5E23957B184A /* Pods_ResAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +248,121 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C9923F3E9D6FE53B5A0432 /* Pods_ResAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		336E6784F30D55616D681C90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A2D6D6C90E6D64B88038ED9 /* Pods-ResApp.debug.xcconfig */,
+				BFE9735031AD1D8AF82DD6D9 /* Pods-ResApp.release.xcconfig */,
+				FBAEEEF967FCD383B50EFB49 /* Pods-ResAppTests.debug.xcconfig */,
+				2A8576E5AC50409A80ADFB6D /* Pods-ResAppTests.release.xcconfig */,
+				6A2B4A361DB0FF0D4ED40781 /* Pods-ResAppUITests.debug.xcconfig */,
+				C30AA85C10DE224A964BD8C6 /* Pods-ResAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C0C73882284311800BC830C /* Data model */ = {
+			isa = PBXGroup;
+			children = (
+				3C0C73892284314C00BC830C /* GuideDataModel.swift */,
+			);
+			path = "Data model";
+			sourceTree = "<group>";
+		};
+		3C0C9CAB2287DB41001B04A5 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C0C9CAC2287DB68001B04A5 /* GuideViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		3C7F36CC225B8F610063CE86 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		3C7F36CD225B8F8C0063CE86 /* Scholar View */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB685B22536302005626D6 /* scholarStoryboard.storyboard */,
+				3CB7837C228B260800D3E556 /* ScholarLoginViewController.swift */,
+				3CB78378228B1C9200D3E556 /* PlagiarismViewController.swift */,
+				3C0C9CAE22880B2D001B04A5 /* schnotificationsTableViewCell.swift */,
+			);
+			path = "Scholar View";
+			sourceTree = "<group>";
+		};
+		3C7F36CE225B8F9F0063CE86 /* Data model */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB685D225366DB005626D6 /* snotificationViewController.swift */,
+			);
+			path = "Data model";
+			sourceTree = "<group>";
+		};
+		3C7F36CF225B8FAE0063CE86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C7F36D0225B8FE90063CE86 /* Data model */ = {
+			isa = PBXGroup;
+			children = (
+				3CE9A35A226AF05B0078B5C4 /* Admindatamodel.swift */,
+			);
+			path = "Data model";
+			sourceTree = "<group>";
+		};
+		3C7F36D1225B8FF50063CE86 /* Admin View */ = {
+			isa = PBXGroup;
+			children = (
+				3CE9EF3C222E5C7200AB3271 /* AdminStoryboard.storyboard */,
+				3CA4180B22800CA7003C8A44 /* BarChartsYearViewController.swift */,
+				3CE93264227D8AE600056A2F /* viewdetailspopupViewController.swift */,
+				3CE9C2D5227F0F0600319BD2 /* AddConferencesTableViewCell.swift */,
+				3C5715C7225D025F0089BD93 /* AddMembershipTableViewCell.swift */,
+				3C5715C9225D02EC0089BD93 /* AddJournalTableViewCell.swift */,
+				3C5715C5225CFA340089BD93 /* AddTeachingTableViewCell.swift */,
+				3CEABFE922797999001706C5 /* GuidePopUpViewController.swift */,
+				3C5715C1225C8BE70089BD93 /* Storyboard.storyboard */,
+				3C5715BF225C8A810089BD93 /* AddMembershipViewController.swift */,
+				3C5715BD225C89090089BD93 /* AddConferenceViewController.swift */,
+				3C5715BB225C88690089BD93 /* AddJournalViewController.swift */,
+				3C5715B9225C86010089BD93 /* AddTeachingViewController.swift */,
+				3C5715B7225C7F930089BD93 /* AddEducationViewController.swift */,
+			);
+			path = "Admin View";
+			sourceTree = "<group>";
+		};
 		3CE880A3222809AE00B90897 = {
 			isa = PBXGroup;
 			children = (
+				3CED097722AB9EE90086AB33 /* ResData.mlmodel */,
+				3CB7837A228B22F000D3E556 /* MyProfileViewController.swift */,
+				3C79D06E22886E1B004273A8 /* Principal.storyboard */,
+				3CF158DC22AA491B006D4875 /* PredictorViewController.swift */,
+				3C1CB4F92269A46600669F38 /* SignUpViewController.swift */,
+				3CE557362247583400001D4E /* startCollectionViewCell.swift */,
+				3CE557372247583400001D4E /* startCollectionViewCell.xib */,
+				3CE96FA02229780800C658E2 /* custViewController.swift */,
 				3CE880AE222809AE00B90897 /* ResApp */,
 				3CE880C3222809B200B90897 /* ResAppTests */,
 				3CE880CE222809B200B90897 /* ResAppUITests */,
 				3CE880AD222809AE00B90897 /* Products */,
+				336E6784F30D55616D681C90 /* Pods */,
+				E80A960985CF2BDC8283EB01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +379,31 @@
 		3CE880AE222809AE00B90897 /* ResApp */ = {
 			isa = PBXGroup;
 			children = (
+				4E97F9C4225B180700782058 /* Scholar */,
+				4E97F9C3225B17FD00782058 /* Admin */,
+				4E97F9C2225B17E300782058 /* Guide */,
 				3CE880AF222809AE00B90897 /* AppDelegate.swift */,
+				3CE96F9E22296DBF00C658E2 /* SBButton.swift */,
 				3CE880B1222809AE00B90897 /* ViewController.swift */,
 				3CE880B3222809AE00B90897 /* Main.storyboard */,
-				3CE880B6222809B100B90897 /* Assets.xcassets */,
-				3CE880B8222809B100B90897 /* LaunchScreen.storyboard */,
+				3CEB685922533AAE005626D6 /* indScholarViewController.swift */,
+				3CEB68572253343E005626D6 /* scholarTableViewCell.swift */,
+				3CE5574122475B3300001D4E /* ResearchGuideViewController.xib */,
+				3CE7171D22303410002B3AB6 /* newCollectionViewCell.swift */,
+				3CE71717223020A7002B3AB6 /* DeptCollectionViewController.swift */,
+				3CE50A9C222D34E100696AED /* Guide1ViewController.swift */,
+				3CE558A2222D083A001E83AC /* PopupVC.swift */,
+				3CE4F165222CE0CF00172F51 /* cust1ViewController.swift */,
+				3C0675EE22ABC5EA00FEC24C /* ezgif.com-gif-maker-2.gif */,
 				3CE880BB222809B100B90897 /* Info.plist */,
+				3CEABFF122798CDF001706C5 /* dropdownimg.png */,
+				3C0675EC22ABC5AD00FEC24C /* ezgif.com-gif-maker.gif */,
+				3C0675EA22ABC58300FEC24C /* Screenshot 2019-03-02 at 6.22.31 PM.gif */,
+				3CE880B6222809B100B90897 /* Assets.xcassets */,
+				3C0675E822ABC4D500FEC24C /* LogoAnimateView.swift */,
+				3CE43808222ABC1D00B41AE8 /* GoogleService-Info.plist */,
+				3CE880B8222809B100B90897 /* LaunchScreen.storyboard */,
+				3C0675F022ABC67400FEC24C /* LaunchScreenViewController.swift */,
 			);
 			path = ResApp;
 			sourceTree = "<group>";
@@ -125,6 +426,130 @@
 			path = ResAppUITests;
 			sourceTree = "<group>";
 		};
+		3CFF9F69226DE46C0086CD5F /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CFF9F6A226DE4A00086CD5F /* AdminViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		4E97F9C2225B17E300782058 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				3C0C9CAB2287DB41001B04A5 /* View Model */,
+				3C0C73882284311800BC830C /* Data model */,
+				4E97F9DD225B315B00782058 /* View */,
+				4E97F9DC225B314800782058 /* Custom Cell */,
+				4E97F9DB225B313D00782058 /* Controller */,
+				4E97F9D5225B2D0B00782058 /* postnotificationViewController.swift */,
+				3CE69F3F228666E500EBBAFB /* guideLoginViewController.swift */,
+				4E97F9D3225B2B7600782058 /* addnotificationViewController.swift */,
+				4E97F9D1225B284A00782058 /* scholarprofileviewViewController.swift */,
+				3CA41809227FEAAF003C8A44 /* GuideProfileViewController.swift */,
+				4E97F9CD225B241000782058 /* scholarlistViewController.swift */,
+				4E97F9CB225B232C00782058 /* GNotificationViewController.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		4E97F9C3225B17FD00782058 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				3CFF9F69226DE46C0086CD5F /* View Model */,
+				3C7F36D1225B8FF50063CE86 /* Admin View */,
+				3C7F36D0225B8FE90063CE86 /* Data model */,
+				4E97F9C6225B194700782058 /* Custom Cell */,
+				4E97F9C5225B18EF00782058 /* Controller */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		4E97F9C4225B180700782058 /* Scholar */ = {
+			isa = PBXGroup;
+			children = (
+				3C7F36CE225B8F9F0063CE86 /* Data model */,
+				3C7F36CF225B8FAE0063CE86 /* Controller */,
+				3C7F36CD225B8F8C0063CE86 /* Scholar View */,
+				3C7F36CC225B8F610063CE86 /* Custom Cell */,
+			);
+			path = Scholar;
+			sourceTree = "<group>";
+		};
+		4E97F9C5225B18EF00782058 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C9E9E3F224DB30500651C0C /* addGuide2ViewController.swift */,
+				3CE5574022475B3300001D4E /* ResearchGuideViewController.swift */,
+				3CE968A7228A7C7F00D8AA1F /* ScholarProfileViewController.swift */,
+				3CE78AD9224099A6007A02FE /* colViewController.swift */,
+				3CC0121E227733EB00B86611 /* selectViewController.swift */,
+				3C7F36D6225B91C60063CE86 /* ResearchScholarViewController.swift */,
+				3C7F36DA225B92470063CE86 /* FacilitiesViewController.swift */,
+				3CE3270E224DE689002699E6 /* EducationViewController.swift */,
+				3C7F36D8225B92150063CE86 /* NotificationsViewController.swift */,
+				3CE32712224DEDDF002699E6 /* MembershipViewController.swift */,
+				3CE32714224DF8DE002699E6 /* journalViewController.swift */,
+				3CE32710224DE6C0002699E6 /* ServiceViewController.swift */,
+				4E97F9C7225B1A0100782058 /* ConferencesViewController.swift */,
+				3C9E9E3D224DB2AA00651C0C /* addGuideViewController.swift */,
+				3CEABFF3227B1103001706C5 /* UserdetilsDataModel.swift */,
+				4E97F9C9225B1A7400782058 /* ScholarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E97F9C6225B194700782058 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3C7F36D2225B90BB0063CE86 /* ResearchScholarTableViewCell.swift */,
+				3C5715C3225C96530089BD93 /* EducationTableViewCell.swift */,
+				3CEABFEF22797E15001706C5 /* GuidesTableViewCell.swift */,
+				3CE93268227D8EA800056A2F /* detailsTableViewCell.swift */,
+				3C7F36DC225B92890063CE86 /* FacilityTableViewCell.swift */,
+				3C7F36D4225B913E0063CE86 /* NotificationTableViewCell.swift */,
+				3C9E9E39224CFE0C00651C0C /* guideTableViewCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		4E97F9DB225B313D00782058 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E97F9DC225B314800782058 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4E97F9D9225B313700782058 /* notfTableViewCell.swift */,
+				4E97F9E5225B457000782058 /* guideFacilityTableViewCell.swift */,
+				4E97F9E0225B33D400782058 /* scholardisplayTableViewCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		4E97F9DD225B315B00782058 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07824EDF224F452000815103 /* GuideStoryBoard.storyboard */,
+				3C8EF624228547CD009922BE /* ScholarsPopupViewController.swift */,
+				3C8EF626228547E8009922BE /* scholarlistTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E80A960985CF2BDC8283EB01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDA17711B78B98341B233EAF /* Pods_ResApp.framework */,
+				80AA407A6A4D283F08809D5D /* Pods_ResAppTests.framework */,
+				FCC68DD46781BB11AD906498 /* Pods_ResAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +557,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CE880D4222809B200B90897 /* Build configuration list for PBXNativeTarget "ResApp" */;
 			buildPhases = (
+				AB238617076D0F17B7EE9EF7 /* [CP] Check Pods Manifest.lock */,
 				3CE880A8222809AE00B90897 /* Sources */,
 				3CE880A9222809AE00B90897 /* Frameworks */,
 				3CE880AA222809AE00B90897 /* Resources */,
+				DF5323C0522BA8836F159E77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +576,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CE880D7222809B200B90897 /* Build configuration list for PBXNativeTarget "ResAppTests" */;
 			buildPhases = (
+				9A523AA9A5B84EE19895D825 /* [CP] Check Pods Manifest.lock */,
 				3CE880BC222809B200B90897 /* Sources */,
 				3CE880BD222809B200B90897 /* Frameworks */,
 				3CE880BE222809B200B90897 /* Resources */,
@@ -167,6 +595,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CE880DA222809B200B90897 /* Build configuration list for PBXNativeTarget "ResAppUITests" */;
 			buildPhases = (
+				6497CD8619E6BEDE0BDD275C /* [CP] Check Pods Manifest.lock */,
 				3CE880C7222809B200B90897 /* Sources */,
 				3CE880C8222809B200B90897 /* Frameworks */,
 				3CE880C9222809B200B90897 /* Resources */,
@@ -229,9 +658,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07824EE0224F452000815103 /* GuideStoryBoard.storyboard in Resources */,
 				3CE880BA222809B100B90897 /* LaunchScreen.storyboard in Resources */,
+				3CEABFF222798CDF001706C5 /* dropdownimg.png in Resources */,
+				3CEB685C22536302005626D6 /* scholarStoryboard.storyboard in Resources */,
+				3C0675EB22ABC58300FEC24C /* Screenshot 2019-03-02 at 6.22.31 PM.gif in Resources */,
+				3C0675EF22ABC5EA00FEC24C /* ezgif.com-gif-maker-2.gif in Resources */,
+				3CE557392247583400001D4E /* startCollectionViewCell.xib in Resources */,
+				3C79D06F22886E1B004273A8 /* Principal.storyboard in Resources */,
+				3C0675ED22ABC5AD00FEC24C /* ezgif.com-gif-maker.gif in Resources */,
+				3CE5574322475B3300001D4E /* ResearchGuideViewController.xib in Resources */,
+				3CE43809222ABC1D00B41AE8 /* GoogleService-Info.plist in Resources */,
 				3CE880B7222809B100B90897 /* Assets.xcassets in Resources */,
+				3CE9EF3D222E5C7200AB3271 /* AdminStoryboard.storyboard in Resources */,
 				3CE880B5222809AE00B90897 /* Main.storyboard in Resources */,
+				3C5715C2225C8BE70089BD93 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +692,185 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6497CD8619E6BEDE0BDD275C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ResAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A523AA9A5B84EE19895D825 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ResAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB238617076D0F17B7EE9EF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ResApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF5323C0522BA8836F159E77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ResApp/Pods-ResApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Koosa/Koosa.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koosa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ResApp/Pods-ResApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CE880A8222809AE00B90897 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB78379228B1C9200D3E556 /* PlagiarismViewController.swift in Sources */,
+				4E97F9D6225B2D0B00782058 /* postnotificationViewController.swift in Sources */,
+				3CEB68582253343E005626D6 /* scholarTableViewCell.swift in Sources */,
+				3C9E9E40224DB30500651C0C /* addGuide2ViewController.swift in Sources */,
+				3CE4F166222CE0CF00172F51 /* cust1ViewController.swift in Sources */,
 				3CE880B2222809AE00B90897 /* ViewController.swift in Sources */,
+				3CE93265227D8AE600056A2F /* viewdetailspopupViewController.swift in Sources */,
+				3CE69F40228666E500EBBAFB /* guideLoginViewController.swift in Sources */,
+				4E97F9C8225B1A0100782058 /* ConferencesViewController.swift in Sources */,
+				3C9E9E3E224DB2AA00651C0C /* addGuideViewController.swift in Sources */,
+				3CE32713224DEDDF002699E6 /* MembershipViewController.swift in Sources */,
+				3CE3270F224DE689002699E6 /* EducationViewController.swift in Sources */,
+				3CB7837D228B260800D3E556 /* ScholarLoginViewController.swift in Sources */,
+				3C5715BA225C86010089BD93 /* AddTeachingViewController.swift in Sources */,
+				3C7F36D7225B91C60063CE86 /* ResearchScholarViewController.swift in Sources */,
+				3CB7837B228B22F000D3E556 /* MyProfileViewController.swift in Sources */,
+				3C5715CA225D02EC0089BD93 /* AddJournalTableViewCell.swift in Sources */,
+				3CEABFF022797E15001706C5 /* GuidesTableViewCell.swift in Sources */,
+				3CE557382247583400001D4E /* startCollectionViewCell.swift in Sources */,
+				3CE96FA12229780800C658E2 /* custViewController.swift in Sources */,
+				3C0C738A2284314C00BC830C /* GuideDataModel.swift in Sources */,
+				3C8EF625228547CD009922BE /* ScholarsPopupViewController.swift in Sources */,
+				3CEABFEA2279799A001706C5 /* GuidePopUpViewController.swift in Sources */,
+				3C5715BE225C89090089BD93 /* AddConferenceViewController.swift in Sources */,
+				4E97F9E1225B33D400782058 /* scholardisplayTableViewCell.swift in Sources */,
+				3C5715C6225CFA340089BD93 /* AddTeachingTableViewCell.swift in Sources */,
+				4E97F9DA225B313700782058 /* notfTableViewCell.swift in Sources */,
+				3C9E9E3A224CFE0C00651C0C /* guideTableViewCell.swift in Sources */,
+				3CE9A35B226AF05B0078B5C4 /* Admindatamodel.swift in Sources */,
+				3CE32711224DE6C0002699E6 /* ServiceViewController.swift in Sources */,
+				3CE71718223020A7002B3AB6 /* DeptCollectionViewController.swift in Sources */,
+				3CE558A3222D083A001E83AC /* PopupVC.swift in Sources */,
+				3CEABFF4227B1103001706C5 /* UserdetilsDataModel.swift in Sources */,
+				4E97F9CE225B241000782058 /* scholarlistViewController.swift in Sources */,
+				3CA4180A227FEAAF003C8A44 /* GuideProfileViewController.swift in Sources */,
+				3CE78ADA224099A6007A02FE /* colViewController.swift in Sources */,
+				4E97F9D4225B2B7600782058 /* addnotificationViewController.swift in Sources */,
+				3CC0121F227733EC00B86611 /* selectViewController.swift in Sources */,
+				3C5715C0225C8A810089BD93 /* AddMembershipViewController.swift in Sources */,
+				3CE9C2D6227F0F0600319BD2 /* AddConferencesTableViewCell.swift in Sources */,
+				3C8EF627228547E8009922BE /* scholarlistTableViewCell.swift in Sources */,
+				3C5715B8225C7F930089BD93 /* AddEducationViewController.swift in Sources */,
+				3C7F36D5225B913E0063CE86 /* NotificationTableViewCell.swift in Sources */,
+				3CEB685E225366DB005626D6 /* snotificationViewController.swift in Sources */,
+				3C0C9CAD2287DB68001B04A5 /* GuideViewModel.swift in Sources */,
+				4E97F9E6225B457000782058 /* guideFacilityTableViewCell.swift in Sources */,
+				3C7F36D3225B90BB0063CE86 /* ResearchScholarTableViewCell.swift in Sources */,
+				4E97F9CC225B232C00782058 /* GNotificationViewController.swift in Sources */,
+				3C7F36D9225B92150063CE86 /* NotificationsViewController.swift in Sources */,
+				4E97F9CA225B1A7400782058 /* ScholarViewController.swift in Sources */,
+				3CE968A8228A7C7F00D8AA1F /* ScholarProfileViewController.swift in Sources */,
+				3C7F36DB225B92470063CE86 /* FacilitiesViewController.swift in Sources */,
+				3C5715BC225C88690089BD93 /* AddJournalViewController.swift in Sources */,
+				3C5715C4225C96530089BD93 /* EducationTableViewCell.swift in Sources */,
+				3C0C9CAF22880B2D001B04A5 /* schnotificationsTableViewCell.swift in Sources */,
+				3C5715C8225D025F0089BD93 /* AddMembershipTableViewCell.swift in Sources */,
+				3CED097822AB9EEA0086AB33 /* ResData.mlmodel in Sources */,
+				3CE5574222475B3300001D4E /* ResearchGuideViewController.swift in Sources */,
+				3CF158DD22AA491B006D4875 /* PredictorViewController.swift in Sources */,
+				3CE96F9F22296DBF00C658E2 /* SBButton.swift in Sources */,
+				3CE32715224DF8DE002699E6 /* journalViewController.swift in Sources */,
+				3C0675F122ABC67400FEC24C /* LaunchScreenViewController.swift in Sources */,
+				3C7F36DD225B92890063CE86 /* FacilityTableViewCell.swift in Sources */,
+				3C1CB4FA2269A46600669F38 /* SignUpViewController.swift in Sources */,
+				3CE50A9D222D34E100696AED /* Guide1ViewController.swift in Sources */,
 				3CE880B0222809AE00B90897 /* AppDelegate.swift in Sources */,
+				3CFF9F6B226DE4A00086CD5F /* AdminViewModel.swift in Sources */,
+				3CEB685A22533AAE005626D6 /* indScholarViewController.swift in Sources */,
+				3C0675E922ABC4D500FEC24C /* LogoAnimateView.swift in Sources */,
+				4E97F9D2225B284A00782058 /* scholarprofileviewViewController.swift in Sources */,
+				3CE93269227D8EA800056A2F /* detailsTableViewCell.swift in Sources */,
+				3CE7171E22303410002B3AB6 /* newCollectionViewCell.swift in Sources */,
+				3CA4180C22800CA7003C8A44 /* BarChartsYearViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +1043,11 @@
 		};
 		3CE880D5222809B200B90897 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2D6D6C90E6D64B88038ED9 /* Pods-ResApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ResApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,16 +1055,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sjbit.ResApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		3CE880D6222809B200B90897 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE9735031AD1D8AF82DD6D9 /* Pods-ResApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ResApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,13 +1075,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sjbit.ResApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 		3CE880D8222809B200B90897 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBAEEEF967FCD383B50EFB49 /* Pods-ResAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +1104,7 @@
 		};
 		3CE880D9222809B200B90897 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8576E5AC50409A80ADFB6D /* Pods-ResAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +1125,7 @@
 		};
 		3CE880DB222809B200B90897 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2B4A361DB0FF0D4ED40781 /* Pods-ResAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +1145,7 @@
 		};
 		3CE880DC222809B200B90897 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30AA85C10DE224A964BD8C6 /* Pods-ResAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
