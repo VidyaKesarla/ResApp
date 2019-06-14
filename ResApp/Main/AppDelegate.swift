@@ -25,6 +25,7 @@ let defaults = UserDefaults.standard
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        print("in appdelegate")
         print("Application did finish launching")
         UITabBar.appearance().barTintColor = .white
         UITabBar.appearance().tintColor = .black

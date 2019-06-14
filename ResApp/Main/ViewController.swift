@@ -52,7 +52,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func login(_ sender: Any) {
-        print("uname = \(emailID.text!)")
+        print("username = \(emailID.text!)")
         print("password = \(password.text!)")
         
         

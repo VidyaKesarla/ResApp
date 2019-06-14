@@ -297,6 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				3CE880B3222809AE00B90897 /* Main.storyboard */,
+				3CED097722AB9EE90086AB33 /* ResData.mlmodel */,
 				3CE880B1222809AE00B90897 /* ViewController.swift */,
 				3CE880AF222809AE00B90897 /* AppDelegate.swift */,
 			);
@@ -395,7 +396,6 @@
 		3CE880AE222809AE00B90897 /* ResApp */ = {
 			isa = PBXGroup;
 			children = (
-				3CED097722AB9EE90086AB33 /* ResData.mlmodel */,
 				3C402A9422B3497700B91BD1 /* Main */,
 				3C402A9322B3491200B91BD1 /* Principal */,
 				4E97F9C4225B180700782058 /* Scholar */,
